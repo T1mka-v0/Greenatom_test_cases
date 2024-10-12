@@ -1,0 +1,22 @@
+@import '../../index.scss';
+
+.mybutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: $color-1;
+  color: $color-primary;
+
+  &:active {
+    translate: 1px 1px;
+      }
+}

@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.sb {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 15px;
+  background-color: $color-1;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.747);
+  flex-grow: 1;
+}

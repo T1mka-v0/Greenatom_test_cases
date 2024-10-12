@@ -1,0 +1,25 @@
+@import '../../index.scss';
+
+.link {
+  width: 100%;
+  background-color: $color-primary;
+  height: 60px;
+  border-radius: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: $color-secondary;
+  font-size: 30px;
+
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    transform: scale(0.92);
+  }
+}

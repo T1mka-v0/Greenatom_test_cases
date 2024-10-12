@@ -1,0 +1,39 @@
+$color-primary: #4f5761;
+$color-secondary: #c9e768;
+$color-1: #f28d68;
+$color-2: #f5cfc2;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: $color-primary;
+}
+
+.flexwrap {
+  margin-top: 40px;
+
+  &__container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__card {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    h1 {
+      color: $color-secondary;
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+  }
+}

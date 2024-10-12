@@ -1,0 +1,39 @@
+$color-primary: #7a9c8c;
+$color-secondary: #f3fcae;
+$color-1: #f1d0c4;
+$color-2: #b75d52;
+
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #282840;
+}
+
+.wrap {
+  margin-top: 30px;
+  max-width: 1440px;
+  min-width: 524px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  p {
+    font-size: 30px;
+    color: $color-secondary;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: $color-secondary;
+    font-style: italic;
+  }
+
+  &__bar {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+}

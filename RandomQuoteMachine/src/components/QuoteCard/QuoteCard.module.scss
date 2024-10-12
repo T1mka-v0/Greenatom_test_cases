@@ -1,0 +1,13 @@
+@import '../../index.scss';
+
+.card {
+  width: 100%;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-2;
+  border: 2px solid $color-1;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+}
